@@ -1,0 +1,134 @@
+<!-- Instructions for Capstone Project 1 - Online Resume
+Project Specifications
+Create an HTML file named index.html.
+
+Use the <!DOCTYPE html> declaration at the beginning of the file to indicate that it's an HTML document.
+Create a head section that includes a title element with the text "My Resume".
+Inside the body section, write HTML code to create an online resume covering the following aspects:
+Summary or objective statement
+Education (list degrees, schools, and dates)
+Work experience (list job titles, employers, dates, and responsibilities)
+Skills (list relevant skills or areas of expertise)
+Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)
+Use appropriate HTML tags to format the content of each section, such as h1 for section headings and ul or ol for lists.
+Use HTML tags to add a profile photo of yourself.
+Use relevant anchor tags to create a multi-page website, listing other aspects of your resume such as Hobbies and Contact details.
+Add a footer element with your name and any copyright information or other disclaimers. (Hint: use the MDN docs for things you don't know how to do: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+Save the index.html file and open it in a web browser to ensure that it displays correctly.
+Add your website to your GitHub to start building your portfolio.
+Publish your website using GitHub pages and share it here (in the Q&A) with other students.
+
+Comment and make suggestions to other students' projects.
+
+Example
+https://appbrewery.github.io/capstone-1-example
+
+Requirements
+In order to keep the project within scope (time, energy, resource), you can only use HTML to complete thing project. Even if you know CSS and JS (which we're assuming you don't yet), you are expected to only write the website using HTML.
+Imagine you are a professional developer working on this project. There will be things you don't know, things you want to do but haven't yet learnt how to. As a professional developer, you need to know the limits of your abilities and look up other things in Google, MDN docs, the internet.
+
+FAQs
+1. Can I use these Capstone projects in my job interviews?
+Yes! That's the point of these capstone projects. Unlike course projects, which have solution code and video walkthroughs, Capstone Projects are meant to be entirely your "own work". There are over a million students who have enrolled on this web development course worldwide. If you add a course project to your portfolio, it's very likely that your client will know it's from this course. The capstone projects on the other hand, have no solution code, no walk through, no design specs. It's it purely your creation So it can definitely be counted as your own work and be added to your portfolio.
+When I hire developers, I always ask for a portfolio. I consider what they have built by themselves to be far more important than which University they went to or if they have a computer science degree. Many of my friends who are CEOs in multi-nationals and startups agree.
+
+2. What if I don't remember how to do something, even though I watched all the videos?
+Watching a video is often not enough to learn a skill. That's why these capstone projects are a great opportunity to identify your weak points. While you're building, you'll find yourself stuck or forgetting how to do things. Great! It's then time to review previous lessons or online documentation to fill your knowledge gaps.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <h1>Letícia Franco</h1>
+    <img src="./Le.jpg" alt="Foto" width="200" />
+    <hr />
+</head>
+<body>
+    <h2>Summary</h2>
+        <p> Graduated in Chemistry with a master's degree in Analytical Chemistry, with professional experience in these areas for ten years.
+            Currently, I am in a career transition to the Information Technology in the Quality Assurance area and I live in Portugal.
+            Since November 2022 I have studied fundamentals of Software Quality, Agile Methodologies, manual and functional tests, Git and GitHub repository. I'm also studying the HTML, CSS, SQL and Javascript. 
+            Feel free to visit my GitHub profile and keep up with what I've been studying: <a href="https://github.com/sayurifranco">GitHub</a></p>
+    <h2>Education</h2>
+        <ul>
+            <li>Quality Assurance Analyst (Última School) 2023</li>
+            <li>Master's Degree in Analytical Chemistry (UNICAMP) 2017 - 2019</li>
+            <li>Bachelor in Technological Chemistry (UNICAMP) 2012 - 2016</li>
+            <li>Technical Food (Cotuca) 2008 - 2012</li>
+        </ul>
+    <h2>Work Experience</h2>
+        <ul>
+            <li><h3>Quality Analist - uTest</h3></li>
+                <p>March 2023 - Present</p>
+                <ul>
+                    <li>Responsible for reporting bugs, with evidence and improvements and for running manual tests, exploratory tests, functional tests, usability tests in Mobile or Web environments;</li>
+                    <li>Responsible for running test cases, reviews and writing bug reports on the uTest platform.</li>
+                </ul>
+            <li><h3>Research Assistant - Braskem</h3></li>
+                <p>January 2020 - June 2022</p>
+                <ul>
+                    <li>Responsible for performing Quantitative Analysis in Liquid and Gas Chromatography for Fermentative Samples, focusing on Renewable Materials; </li>
+                    <li>Experience with equipments from Thermo Scientific (Ultimate 3000), with Data Analysis using the Chromeleon 7.2 - Thermo Scientific Software; </li>
+                    <li>Knowledge of JMP and LIMS Software; </li>
+                    <li>Preparation of KPIs Spreadsheet;</li>
+                    <li>Development of reports, Standard Operating Procedures, Work Instructions and Technical Presentations.</li>
+                </ul>
+            <li><h3>Research Supervisor - GhenVet</h3></li>
+                <p>January 2019 - November 2019</p>
+                <ul>
+                    <li>Responsible for Development of Biotechnological and Fermentative Processes for Probiotic Bacteria used in animal health;</li>
+                    <li>Development of Methods for the Encapsulation of Probiotic Bacteria (Lactobacillus sp.)</li>
+                    <li>Preparation and review of Standard Operating Procedures and Work Instructions.</li>
+                </ul>
+            <li><h3>Master's Degree Student - EMBRAPA</h3></li>
+                <p>March 2017 - June 2019</p>
+                <ul>
+                    <li>Responsible for the Development and Validation of a Method using High-Performance Liquid Chromatography coupled to tandem Mass Spectrometry for fish samples; </li>
+                    <li>Validation of Analytical Methods based on the Legislation of ANVISA, MAPA and the European Community;</li>
+                    <li>Operational Training: UFLC Shimadzu LC20AT High Pressure Liquid Chromatograph coupled to Mass Spectrometer - Embrapa. Software used for Data Acquisition and Processing QuantAnalisys 2.0;</li>
+                    <li>Operational Training: Waters 2695 Separations Module High Pressure Liquid Chromatograph coupled to Triple Quadrupole Mass Spectrometer - IQ/UNICAMP;</li>
+                </ul>
+            <li><h3>Graduation Internship - CNPEM</h3></li>
+                <p>July 2015 - January 2017</p>
+                <ul>
+                    <li>Responsible for the Development of High adhesion and Hybrid Irreversible/Reversible full-PDMS Microfluidic Platforms.</li>
+                </ul>
+            <li><h3>Technical Internship - UNICAMP</h3></li>
+                <p>January 2011 - July 2012</p>
+                <ul>
+                    <li>Responsible for performing Physicochemical Analysis for Oils and Fats Quality Control of samples from industries such as Natura and Cargill; </li>
+                    <li>Use of Chromatographic, Spectrophotometric and Volumetric analysis;</li>
+                    <li>Tocopherol analysis using Liquid Chromatography coupled to a visible UV Detector (Perkin Elmer SERIES 200 Chromatograph and Perkin Elmer LC UV/Visible Detector)</li>
+                    <li>Solid curve analysis using Nuclear Magnetic Resonance (the Minispec mq20)</li>
+                    <li>Analysis of Oxidative Stability of Oils and Fats.</li>
+                </ul>
+        </ul>
+    <h2>Skills</h2>
+        <ul>
+            <li>English: ⭐️⭐️⭐️</li>
+            <li>Javascript: ⭐️⭐️⭐️</li>
+            <li>HTML: ⭐️⭐️⭐️⭐️</li>
+            <li>CSS: ⭐️⭐️⭐️</li>
+            <li>SQL: ⭐️⭐️⭐️</li>
+            <li>Node.JS: ⭐️⭐️⭐️</li>
+            <li>Agile Methodologies: ⭐️⭐️⭐️</li>
+            <li>JIRA: ⭐️⭐️⭐️</li>
+            <li>Git: ⭐️⭐️⭐️⭐️</li>
+            <li>Software Quality: ⭐️⭐️⭐️⭐️</li>
+        </ul>
+    <h2>Awards and Certifications</h2>
+        <ul>
+            <li>Lavoisier Award, CRQ - Best student of the Bachelor's Degree in Technological Chemistry from 2012 to 2016.</li>
+        </ul>
+    <h2>Other</h2>
+        <ul>
+            <li><a href=my-hobbies.html>My Hobbies</a></li>
+            <li><a href=contact-me.html>Contact me</a></li>
+        </ul>
+</body>
+<footer> © Letícia Franco. All rights reserved.</footer>
+</html>
