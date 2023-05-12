@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-size: 5rem;
+  display: block;
 }
 
 footer {
@@ -19,3 +20,6 @@ footer {
   color: midnightblue;
 }
 
+.creative {
+  color: midnightblue;
+}
