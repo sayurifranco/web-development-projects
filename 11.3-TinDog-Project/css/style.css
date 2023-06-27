@@ -4,6 +4,22 @@
   animation: gradient-animation 18s ease infinite;
 }
 
+#footer {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+#apple {
+  background-color: #fff;
+  color: black;
+  border: black;
+}
+
+#apple-hover {
+  background-color: gray;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
